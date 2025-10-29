@@ -15,9 +15,19 @@
     justify-content: start;
     align-items: start;
 }
-.cont-btn-menu{
-    width: 5%;
+.cont-menu-hambur,
+.cont-login-logout{
+    width: 50%;
     height: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--color-barra);
+}
+.cont-btn-menu,
+.cont-icono-log{
+    width: 72px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +49,14 @@
     height: 3px;
     background-color: rgb(5, 5, 5);
     transition: all 0.3s ease;
+}
+.cont-login-logout{
+    justify-content: end;
+}
+/* col logOut */
+.cont-icono-log{
+    width: 200px;
+}
+.nombre-usuario{
+    margin-right: 10px;
 }

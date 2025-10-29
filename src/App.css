@@ -8,3 +8,13 @@
   min-height: 100vh;
   /* ocupa toda la altura de la pantalla */
 }
+
+/* estilos para los componentes Page */
+.page{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
