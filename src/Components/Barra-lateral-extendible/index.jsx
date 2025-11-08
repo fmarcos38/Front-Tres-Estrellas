@@ -201,11 +201,11 @@ const BarraLateral = ({ isOpen }) => {
           )}
           {clientesOpen && (
             <ul className="dropdown-menu">
-              <Link to="/crearCliente" className="link-menu">
-                <li className="dropdown-item">Crear Cliente</li>
-              </Link>
               <Link to="/listaClientes" className="link-menu">
                 <li className="dropdown-item">Listar Clientes</li>
+              </Link>
+              <Link to="/crearCliente" className="link-menu">
+                <li className="dropdown-item">otra opc</li>
               </Link>
             </ul>
           )}
